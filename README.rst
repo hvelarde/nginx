@@ -1,16 +1,20 @@
 nginx
 =====
 
-Installing the latest version of nginx on Ubuntu
-------------------------------------------------
+Installing the latest version on Ubuntu
+---------------------------------------
+
+Run the following commands as root:
 
 .. code-block:: console
 
-    sudo add-apt-repository ppa:nginx/stable
-    sudo apt-get update && sudo apt-get install nginx
+    add-apt-repository ppa:nginx/stable
+    apt-get update && apt-get install nginx
 
-Installing the latest version of nginx on Debian
-------------------------------------------------
+Installing the latest version on Debian
+---------------------------------------
+
+Run the following commands as root:
 
 .. code-block:: console
 
